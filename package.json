@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2-campos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquincampos95/preentrega2-campos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquincampos95/preentrega2-campos/issues"
+  },
+  "homepage": "https://github.com/joaquincampos95/preentrega2-campos#readme"
+}
