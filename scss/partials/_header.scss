@@ -1,0 +1,20 @@
+header{
+
+    .nav-item{
+        -webkit-animation:flip-in-hor-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+        animation:flip-in-hor-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+        
+    }
+                                        
+    @for $item from 1 to 5 {
+
+    .nav__item#{$item}{
+        animation-delay: $item*0.2s;
+    }
+
+}
+
+
+
+
+ @-webkit-keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}
